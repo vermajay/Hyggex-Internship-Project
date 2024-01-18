@@ -2,7 +2,7 @@ import React from "react";
 
 const Navigation = () => {
   return (
-    <div className="items-stretch flex gap-0 mt-16 self-start">
+    <div className="items-stretch flex gap-0 mt-16 self-start max-md:max-w-full max-md:flex-wrap max-md:mt-10">
       <span className="items-stretch flex gap-0">
         <div className="cursor-pointer">
         <svg

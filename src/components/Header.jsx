@@ -2,13 +2,13 @@ import headerlogo from '../assets/headerlogo.png'
 
 function Header() {
   return (
-    <div className="self-stretch flex w-full items-center justify-between gap-5 px-0.5">
+    <div className="self-stretch flex w-full items-center justify-between gap-5 px-0.5 max-md:max-w-full max-md:flex-wrap">
       <img
         loading="lazy"
         src={headerlogo}
         className="aspect-[4.9] object-contain object-center w-[191px] overflow-hidden shrink-0 max-w-full my-auto"
       />
-      <span className="items-stretch self-stretch flex justify-between gap-10">
+      <span className="items-stretch self-stretch flex justify-between gap-10 max-md:max-w-full max-md:flex-wrap">
         <span className="items-stretch self-center flex justify-between gap-8 my-auto">
           <button className="text-[#3A3740] text-lg">Home</button>
           <button className="text-[#3A3740] text-lg">Flashcard</button>
