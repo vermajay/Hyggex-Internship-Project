@@ -46,11 +46,13 @@ const Content = () => {
         <div className={`${flipped && "hidden"}`}>
           <div className="flex items-stretch justify-between gap-5 max-md:max-w-full max-md:flex-wrap">
             <img
+              alt=""
               loading="lazy"
               src={lightbulb}
               className="aspect-square object-contain object-center w-[34px] max-w-full"
             />
             <img
+              alt=""
               loading="lazy"
               src={volume}
               className="aspect-square object-contain object-center w-[34px] max-w-full"
@@ -64,12 +66,12 @@ const Content = () => {
         {/* flip card back */}
         <div className={`-scale-x-100 ${!flipped && "hidden"}`}>
           <div className="flex items-stretch justify-between gap-5 max-md:max-w-full max-md:flex-wrap">
-            <img
+            <img alt=""
               loading="lazy"
               src={lightbulb}
               className="aspect-square object-contain object-center w-[34px] max-w-full"
             />
-            <img
+            <img alt=""
               loading="lazy"
               src={volume}
               className="aspect-square object-contain object-center w-[34px] max-w-full"
@@ -83,25 +85,25 @@ const Content = () => {
       </span>
 
       <div className="items-stretch self-center flex w-[612px] max-w-full justify-between gap-5 mt-8 max-md:flex-wrap">
-        <img
+        <img alt=""
           loading="lazy"
           src={reload}
           className="aspect-square object-contain object-center w-[30px] max-w-full my-auto cursor-pointer"
         />
         <span className="items-center flex justify-between gap-5">
-          <img
+          <img alt=""
             loading="lazy"
             src={back}
             className="aspect-square object-contain object-center w-[55px] max-w-full cursor-pointer"
           />
           <div className="text-gray-800 text-2xl font-bold my-auto">01/10</div>
-          <img
+          <img alt=""
             loading="lazy"
             src={forward}
             className="aspect-square object-contain object-center w-[55px] max-w-full cursor-pointer"
           />
         </span>
-        <img
+        <img alt=""
           loading="lazy"
           src={maximize}
           className="aspect-square object-contain object-center w-[30px] max-w-full my-auto cursor-pointer"
@@ -109,14 +111,14 @@ const Content = () => {
       </div>
       <div className="self-stretch flex w-full items-stretch justify-between gap-5 mt-20 px-0.5 max-md:max-w-full max-md:flex-wrap max-md:mt-10">
         <div className="items-stretch flex justify-between gap-5">
-          <img
+          <img alt=""
             loading="lazy"
             src={logo_small}
             className="aspect-square object-contain object-center w-[81px] rounded-full drop-shadow-2xl max-w-full"
           />
           <span className="justify-center items-stretch flex flex-col self-start">
             <div className="text-zinc-500 text-xs font-bold">Published by</div>
-            <img
+            <img alt=""
               loading="lazy"
               src={logo}
               className="object-contain object-center w-[115px] mt-3"
@@ -124,7 +126,7 @@ const Content = () => {
           </span>
         </div>
         <span className="items-stretch self-center flex gap-2 my-auto">
-          <img
+          <img alt=""
             loading="lazy"
             src={add}
             className="aspect-square object-contain object-center w-[60px] max-w-full cursor-pointer"

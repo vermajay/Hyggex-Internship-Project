@@ -3,7 +3,7 @@ import headerlogo from '../assets/headerlogo.png'
 function Header() {
   return (
     <div className="self-stretch flex w-full items-center justify-between gap-5 px-0.5 max-md:max-w-full max-md:flex-wrap">
-      <img
+      <img alt=""
         loading="lazy"
         src={headerlogo}
         className="aspect-[4.9] object-contain object-center w-[191px] overflow-hidden shrink-0 max-w-full my-auto"

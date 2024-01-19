@@ -24,7 +24,7 @@ const FAQ = () => {
             </div>
           </div>
         </div>
-        <img
+        <img alt=""
           onClick={()=>setOpen1(!open1)}
           loading="lazy"
           src={expand}
@@ -44,7 +44,7 @@ const FAQ = () => {
             </div>
           </div>
         </div>
-        <img
+        <img alt=""
           onClick={()=>setOpen2(!open2)}
           loading="lazy"
           src={expand}
@@ -64,7 +64,7 @@ const FAQ = () => {
             </div>
           </div>
         </div>
-        <img
+        <img alt=""
           onClick={()=>setOpen3(!open3)}
           loading="lazy"
           src={expand}
